@@ -49,12 +49,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <img
                     className="h-5"
                     src={`/images/${!open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
-                          ? "cancel.svg"
-                          : "cancel-white.svg"
+                      ? theme === "dark"
+                        ? "menu-white.svg"
+                        : "menu.svg"
+                      : theme === "light"
+                        ? "cancel.svg"
+                        : "cancel-white.svg"
                       }`}
                   ></img>
                 </Popover.Button>
@@ -74,7 +74,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
+                        window.open("mailto:venkatchandu848@gmail.com")
                       }
                     >
                       Resume
@@ -82,7 +82,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:venkatchandu848@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -105,7 +105,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:venkatchandu848@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -141,7 +141,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:venkatchandu848@gmail.com")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -170,7 +170,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:venkatchandu848@gmail.com")}>
               Contact
             </Button>
 
