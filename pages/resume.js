@@ -33,17 +33,15 @@ const Resume = () => {
       )}
       {data.showCursor && <Cursor />}
       <div
-        className={`container mx-auto mb-10 ${
-          data.showCursor && "cursor-none"
-        }`}
+        className={`container mx-auto mb-10 ${data.showCursor && "cursor-none"
+          }`}
       >
         <Header isBlog />
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
-              className={`w-full ${
-                mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-              } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+              className={`w-full ${mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
+                } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
             >
               <h1 className="text-3xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
@@ -53,6 +51,17 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
+              {resume.resumePdfPath && (
+                <div className="mt-5">
+                  <a
+                    href={resume.resumePdfPath}
+                    download
+                    className="inline-block px-8 py-3 border-2 border-black dark:border-white rounded-lg text-sm font-bold hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all"
+                  >
+                    Download Resume PDF
+                  </a>
+                </div>
+              )}
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
 
@@ -70,15 +79,29 @@ const Resume = () => {
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
-                  </h3>
-                  <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
-                  </p>
-                </div>
+                {resume.education && (Array.isArray(resume.education) ? (
+                  resume.education.map((edu, index) => (
+                    <div key={index} className="mt-2">
+                      <h2 className="text-lg">{edu.universityName}</h2>
+                      <h3 className="text-sm opacity-75">
+                        {edu.universityDate}
+                      </h3>
+                      <p className="text-sm mt-2 opacity-50">
+                        {edu.universityPara}
+                      </p>
+                    </div>
+                  ))
+                ) : (
+                  <div className="mt-2">
+                    <h2 className="text-lg">{resume.education.universityName}</h2>
+                    <h3 className="text-sm opacity-75">
+                      {resume.education.universityDate}
+                    </h3>
+                    <p className="text-sm mt-2 opacity-50">
+                      {resume.education.universityPara}
+                    </p>
+                  </div>
+                ))}
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>

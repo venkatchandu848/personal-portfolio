@@ -1,1 +1,141 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Chandu",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Venkat Chandu",
+    "headerTaglineThree": "AI/ML Engineer",
+    "headerTaglineFour": " based in Wolfsburg, Germany.",
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/venkatchandu848"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://linkedin.com/in/venkat-chandu-bheesetty"
+        },
+        {
+            "id": "3",
+            "title": "Email",
+            "link": "mailto:venkatchandu848@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Research Assistant (RAG System)",
+            "description": "Production-style arXiv research assistant with FastAPI, PostgreSQL, OpenSearch, and Agentic RAG workflows. Built hybrid BM25 + dense retrieval boosting precision by 30%. Implemented Agentic workflows with LangGraph reducing hallucinations.",
+            "imageSrc": "/images/rag_system_light.png",
+            "imageSrcDark": "/images/rag_system_dark.png",
+            "url": "#"
+        },
+        {
+            "id": "2",
+            "title": "TikTok Trend Detection System",
+            "description": "Scalable multimodal data pipeline using Apache Airflow & TimescaleDB. Applied statistical modeling and AI-based keyword extraction to identify trends. Built dashboards with Tableau and Streamlit for analytics.",
+            "imageSrc": "/images/tiktok_analytics_light.png",
+            "imageSrcDark": "/images/tiktok_analytics_dark.png",
+            "url": "#"
+        },
+        {
+            "id": "3",
+            "title": "Object Detection & Tracking System",
+            "description": "Multi-class object detection system using YOLOv8/NAS and DeepSORT for edge deployment. Developed semi-automated labeling pipelines reducing manual time by 40%. Validated superior efficiency of YOLO_NAS.",
+            "imageSrc": "/images/object_detection_light.png",
+            "imageSrcDark": "/images/object_detection_dark.png",
+            "url": "#"
+        },
+        {
+            "id": "4",
+            "title": "Image Classification",
+            "description": "Fine-tuned CNN architectures to classify 8 Christmas-related image classes. Engineered robust augmentation pipeline (CutMix, MixUp) achieving 95% validation accuracy and generalized well on unseen data.",
+            "imageSrc": "/images/image_classification_light.png",
+            "imageSrcDark": "/images/image_classification_dark.png",
+            "url": "#"
+        }
+    ],
+    "aboutpara": "Passionate AI/ML engineer with over 2.5 years of experience in research and engineering roles at Stealth Start-up, Volkswagen AG and Vedanta Limited, specializing in Machine Learning, Generative AI and Agentic AI with strong expertise in research methodology and scalable AI solutions. I have a Master's degree in Mechatronics from Universität Siegen and a Bachelor's in Mechanical Engineering from IIT Dhanbad. My work spans from distributed learning systems to production-grade RAG solutions, with a focus on delivering measurable impact through innovative AI applications.",
+    "resume": {
+        "tagline": "👋 I'm an AI/ML Engineer & Researcher specializing in ML, Generative AI, Computer Vision and Agentic AI",
+        "description": "I have over 2.5 years of experience developing ML/DL solutions at Stealth Startup, Volkswagen AG and Universität Siegen. Expert in PyTorch, LangChain, and MLOps tools.",
+        "resumePdfPath": "/resume.pdf",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "October 2025 - December 2025",
+                "type": "Internship",
+                "position": "Data Scientist Intern at Stealth Startup",
+                "bullets": "Automating ETL/ELT pipelines replacing manual workflows to reducing processing time by 20% ||| Scaled web scraping ingestion pipeline to 2x peak loads, achieving higher uptime and reliability ||| Fine tuning and benchmarking ML models for forecasting analysis, pattern recognition and deployment readiness ||| Built LLM-driven workflows through advanced prompting techniques (DSPy) to automate analytical tasks and enhance forecasting predictions, while utilizing distributed programming for faster inference."
+            },
+            {
+                "id": "2",
+                "dates": "December 2024 - August 2025",
+                "type": "Master Thesis",
+                "position": "Master Thesis at Volkswagen AG",
+                "bullets": "Developed and Optimized Vision Transformer (ViT) and Vision-Language model (VLM) pipelines to enhance model explainability for automotive perception tasks ||| Fine-tuned token-pruned Faster RCNN model with ViT backbone, delivering 3x reduction in FLOPs while achieving 4% mAP accuracy gain for object detection task, enabling model deployment in resource-limited environments ||| Conducted unsupervised clusterability analysis of high-dimensional VLM embeddings using NMI, identifying DINO's 60% superior semantic separability vs baselines, improving object detection performance and interpretability ||| Conducted comparative analysis between Large Language Models (LLMs) and ViT regarding embedding properties for better feature engineering decisions ||| Utilized Azure ML for experiment tracking, model versioning and reproducibility, streamlining research and analysis workflows"
+            },
+            {
+                "id": "3",
+                "dates": "May 2024 - November 2024",
+                "type": "Internship",
+                "position": "Machine Learning Intern at Volkswagen AG",
+                "bullets": "Refined and optimized existing CNN LSTM pipelines using PyTorch for time series prediction, anomaly detection and model evaluation in ADAS system to achieve 7% MCC gain ||| Implemented MLflow based experiment tracking for these pipelines, standardizing metric logging, model versions and runs to improve reproducibility and comparison across experiments ||| Performed exploratory time-series analysis on multivariate datasets from 30+ vehicles to identify potential edge cases ||| Applied diverse pre-processing and augmentation techniques to improve model robustness against signal variability"
+            },
+            {
+                "id": "4",
+                "dates": "April 2024 - November 2024",
+                "type": "Research",
+                "position": "Research Assistant at Universität Siegen",
+                "bullets": "Developed distributed learning pipelines for semantic segmentation across simulated edge devices, optimizing real time vision models for constrained environments using DeepLabV3 + MobileNetV2 architecture ||| Benchmarked federated learning algorithms (FedAvg, FedProx, FedDyn) under diverse non IID data conditions, evaluating scalability, robustness and accuracy trade offs ||| Integrated a MAN regularizer for activation control, improving model generalization by 2% in decentralized systems"
+            },
+            {
+                "id": "5",
+                "dates": "July 2021 - July 2022",
+                "type": "Full Time",
+                "position": "Senior Maintenance Engineer at Vedanta Limited",
+                "bullets": "Led maintenance initiatives for heavy machinery, coordinating with cross functional teams and leveraging ERP SAP PM/MM for planning and tracking, improving equipment availability by 20% ||| Performed Root Cause Analysis (RCA) for long breakdown machinery and documented findings and corrective actions within SAP maintenance notifications to ensure traceability ||| Collaborated with cross-functional teams and external partners to implement process improvements and optimized workflows"
+            }
+        ],
+        "education": [
+            {
+                "universityName": "Universität Siegen, Germany",
+                "universityDate": "2022-2025",
+                "universityPara": "M.Sc in Mechatronics with Grade 1.3. Specialized in Machine Learning, Computer Vision, and Distributed Systems."
+            },
+            {
+                "universityName": "IIT ISM Dhanbad, India",
+                "universityDate": "2017-2021",
+                "universityPara": "Bachelor of Technology in Mechanical Engineering with Grade 1.7."
+            }
+        ],
+        "languages": [
+            "Python",
+            "C",
+            "C++",
+            "MATLAB",
+            "SQL"
+        ],
+        "frameworks": [
+            "PyTorch",
+            "TensorFlow",
+            "LangChain",
+            "FastAPI",
+            "HuggingFace",
+            "OpenCV"
+        ],
+        "others": [
+            "MLflow",
+            "Docker",
+            "Git",
+            "Azure ML",
+            "AWS",
+            "PostgreSQL",
+            "OpenSearch"
+        ]
+    }
+}

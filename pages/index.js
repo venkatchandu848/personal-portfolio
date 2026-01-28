@@ -94,33 +94,36 @@ export default function Home() {
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="text-2xl text-bold">Projects.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
                 img={project.imageSrc}
+                imgDark={project.imageSrcDark}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
               />
             ))}
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            {data.services.map((service, index) => (
-              <ServiceCard
-                key={index}
-                name={service.title}
-                description={service.description}
-              />
-            ))}
+
+        {data.services && data.services.length > 0 && (
+          <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+            <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+            <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+              {data.services.map((service, index) => (
+                <ServiceCard
+                  key={index}
+                  name={service.title}
+                  description={service.description}
+                />
+              ))}
+            </div>
           </div>
-        </div>
+        )}
         {/* This button should not go into production */}
         {process.env.NODE_ENV === "development" && (
           <div className="fixed bottom-5 right-5">

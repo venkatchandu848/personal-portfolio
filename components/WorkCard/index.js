@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
-const WorkCard = ({ img, name, description, onClick }) => {
+const WorkCard = ({ img, imgDark, name, description }) => {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
-      onClick={onClick}
     >
       <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "600px" }}
+        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto desktop:h-96"
       >
         <img
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
-          src={img}
+          src={mounted && theme === "dark" && imgDark ? imgDark : img}
         ></img>
       </div>
       <h1 className="mt-5 text-3xl font-medium">
